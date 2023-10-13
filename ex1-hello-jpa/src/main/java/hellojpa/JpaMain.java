@@ -16,9 +16,10 @@ public class JpaMain {
         tx.begin();
 
         try{
-//            Member member = new Member(200L,"member200");
-//            em.persist(member);
-//
+            Member member = new Member();
+            member.setUsername("C");
+            em.persist(member);
+
 //            em.flush();
 
 
